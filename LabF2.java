@@ -21,38 +21,24 @@ public class LabF2 {
         
         Scanner input = new Scanner( System.in);
         
-        int thirst;
-        int number1;
-        int number2;
-        
-        
+        int hunger;
        
-        System.out.print("thirst:");
-        thirst = input.nextInt();
+        System.out.println("Start,");
         
-        System.out.print("get coke");
-        number1 = input.nextInt();
+        System.out.println(" Im Hungry,");
         
-        System.out.print("eat lunch");
-        number2 = input.nextInt();
+        System.out.println(" I get in line,");
         
-        System.out.printf("Start");
+        System.out.println(" I buy Lunch,");
         
-        System.out.printf("Im Hungry");
+        System.out.println(" are you thirsty? (0 = yes, 1 = no) : ");
+        hunger = input.nextInt();
+        if (hunger == 0)
+            System.out.println(" buy a coke,");
         
-        System.out.printf("I get in line");
+        System.out.println(" I eat lunch,");
         
-        System.out.printf("I buy Lunch");
-        
-        if (thirst == number1)
-            System.out.printf("%d == %d\n", number1, number2);
-        
-        if( thirst != number2)
-            System.out.printf("%d != %d\n", number1, number2);
-        
-        System.out.printf("I eat lunch");
-        
-        System.out.printf("I leave");
+        System.out.println(" I leave!");
         
        
         
