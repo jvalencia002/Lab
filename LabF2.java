@@ -24,21 +24,16 @@ public class LabF2 {
         int Thirsty;
        
         System.out.println("Start,");
-        
-        System.out.println(" Im Hungry,");
-        
-        System.out.println(" I get in line,");
-        
-        System.out.println(" I buy Lunch,");
-        
-        System.out.println(" are you thirsty? (0 = yes, 1 = no) : ");
-        hunger = input.nextInt();
+        System.out.println("Im Hungry,");
+        System.out.println("I get in line,");
+        System.out.println("I buy Lunch,");
+        System.out.println("are you thirsty? (0 = yes, 1 = no) : ");
+        Thirsty = input.nextInt();
         if (Thirsty == 0)
-            System.out.println(" buy a coke,");
-        
-        System.out.println(" I eat lunch,");
-        
-        System.out.println(" I leave!");
+            System.out.println("buy a coke,");
+        else System.out.println("Get H20");
+        System.out.println("I eat lunch,");
+        System.out.println("I leave!");
         
        
         
