@@ -21,7 +21,7 @@ public class LabF2 {
         
         Scanner input = new Scanner( System.in);
         
-        int hunger;
+        int Thirsty;
        
         System.out.println("Start,");
         
@@ -33,7 +33,7 @@ public class LabF2 {
         
         System.out.println(" are you thirsty? (0 = yes, 1 = no) : ");
         hunger = input.nextInt();
-        if (hunger == 0)
+        if (Thirsty == 0)
             System.out.println(" buy a coke,");
         
         System.out.println(" I eat lunch,");
